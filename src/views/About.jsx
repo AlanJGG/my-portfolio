@@ -1,3 +1,6 @@
 export const About = () => {
-  return <div id="about"></div>;
+  return (
+    <div id="about" className="p-28">
+    </div>
+  );
 };
