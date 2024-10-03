@@ -3,7 +3,7 @@ export const Navbar = () => {
     <header id="navbar" className="fixed top-0 left-0 w-full z-50 bg-black">
       <nav className="py-5 flex justify-center">
         <ul className="flex">
-          <li className="sm:px-2 md:px-10 ">
+          <li className="px-2 md:px-10 ">
             <a
               href="#home"
               className="hover:text-amber-500 focus:text-amber-500 ease-in-out duration-300"
@@ -11,7 +11,7 @@ export const Navbar = () => {
               Home
             </a>
           </li>
-          <li className="sm:px-2 md:px-10">
+          <li className="px-2 md:px-10">
             <a
               href="#about"
               className="hover:text-amber-500 focus:text-amber-500 ease-in-out duration-300 antialiased"
@@ -19,7 +19,7 @@ export const Navbar = () => {
               About
             </a>
           </li>
-          <li className="sm:px-2 md:px-10">
+          <li className="px-2 md:px-10">
             <a
               href="#work"
               className="hover:text-amber-500 focus:text-amber-500 ease-in-out duration-300 antialiased"
@@ -27,7 +27,7 @@ export const Navbar = () => {
               Work
             </a>
           </li>
-          <li className="sm:px-2 md:px-10">
+          <li className="px-2 md:px-10">
             <a
               href="#blog"
               className="hover:text-amber-500 focus:text-amber-500 ease-in-out duration-300 antialiased"
@@ -35,7 +35,7 @@ export const Navbar = () => {
               Blog
             </a>
           </li>
-          <li className="sm:px-2 md:px-10 ">
+          <li className="px-2 md:px-10 ">
             <a
               href="#contact"
               className="hover:text-amber-500 focus:text-amber-500 ease-in-out duration-300 antialiased"
@@ -47,4 +47,4 @@ export const Navbar = () => {
       </nav>
     </header>
   );
-};  
+};
