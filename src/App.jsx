@@ -1,5 +1,5 @@
 import { Navbar } from "./components";
-import { Home, About, Work, Blog, Contact } from "./views";
+import { Home, About, Projects, Blog, Contact } from "./views";
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Work />
+      <Projects />
       <Blog />
       <Contact />
     </div>

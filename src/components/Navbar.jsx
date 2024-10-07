@@ -21,10 +21,10 @@ export const Navbar = () => {
           </li>
           <li className="px-2">
             <a
-              href="#work"
+              href="#projects"
               className="hover:text-amber-500 focus:text-amber-500 ease-in-out duration-300 antialiased"
             >
-              Work
+              Projects
             </a>
           </li>
           <li className="px-2">
