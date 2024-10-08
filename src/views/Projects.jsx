@@ -52,11 +52,11 @@ export const Projects = () => {
     },
   ];
   return (
-    <div id="projects" className="p-8 lg:p-28 antialised">
+    <div id="projects" className="p-8 lg:p-28 antialised 2xl:pb-40">
       <h1 className="sm:flex 2xl:ml-48 text-2xl md:text-3xl lg:text-4xl xl:text-4xl font-semibold antialiased ">
         Projects
       </h1>
-      <div className="md:mt-6 lg:mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="mt-8 2xl:mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {projects.map((project, index) => (
           <ProjectCard
             key={index}
