@@ -1,7 +1,7 @@
 export const About = () => {
   return (
-    <div id="about" className="2xl:mt-48 p-8 lg:p-28 antialised 2xl:pb-40">
-      <h1 className="sm:flex 2xl:ml-48 text-2xl md:text-3xl lg:text-4xl xl:text-4xl font-semibold antialiased ">
+    <div id="about" className="h-screen pt-20 2xl:mt-48 p-8 lg:p-28 antialised 2xl:pb-40">
+      <h1 className="sm:flex 2xl:ml-48 text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold antialiased ">
         About me
       </h1>
       <div className="w-full lg:flex gap-x-24 mt-8 2xl:mt-20">

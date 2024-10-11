@@ -1,7 +1,7 @@
 import { Navbar } from "./components";
 import { Home, About, Projects, Blog, Contact } from "./views";
 
-function App() {
+const App = () => {
   return (
     <div id="app">
       <Navbar />
@@ -12,6 +12,6 @@ function App() {
       <Contact />
     </div>
   );
-}
+};
 
 export default App;

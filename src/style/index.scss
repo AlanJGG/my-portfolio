@@ -2,8 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+$main_color: #03000f;
+$dark-purple: rgba(31, 12, 54, 0.686);
+$light-purple: rgba(65, 32, 72, 0.5);
+
 html {
+  background: radial-gradient(
+    circle at top left,
+    black,
+    $main_color 40%,
+    rgba(33, 33, 64, 0.622) 60%,
+    $dark-purple 70%,
+    $light-purple 90%
+  );
+  font-family: 'Bio Sans', sans-serif;
   scroll-behavior: smooth;
-  background-color: black;
+  background-color: $main_color;
   color: rgb(255, 243, 229);
 }
+.activeSection {
+}
+
+#navbar {
+  background-color: $main_color;
+  background: linear-gradient($main_color 60%, transparent 100%);
+}
+

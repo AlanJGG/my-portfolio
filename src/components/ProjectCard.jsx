@@ -2,12 +2,14 @@ import PropTypes from "prop-types";
 
 export const ProjectCard = ({ image, title, description, technologies }) => {
   return (
-    <div className="bg-white shadow-md shadow-slate-800  rounded-lg overflow-hidden hover:shadow-white transition-shadow duration-300 max-w-xs">
-      {image ? <img
-        className="w-full h-48 object-cover"
-        src={image}
-        alt={`${title} screenshot`}
-      /> : null}
+    <div className="bg-white shadow-md shadow-slate-800 rounded-lg overflow-hidden hover:shadow-white ease-in-out duration-300 max-w-xs transform hover:scale-105 transition-transform">
+      {image ? (
+        <img
+          className="w-full h-48 object-cover"
+          src={image}
+          alt={`${title} screenshot`}
+        />
+      ) : null}
       <div className="p-6">
         <h3 className="text-xl font-semibold text-gray-800 mb-2">{title}</h3>
         <p className="text-gray-600 mb-4">{description}</p>

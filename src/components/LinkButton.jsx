@@ -7,8 +7,8 @@ export const LinkButton = ({ Icon, link, title }) => {
       href={link}
       target="_blank"
     >
-      <Icon className="mr-2" style={{ fontSize: 28 }}/>
-      <span className="antialised font-medium">{title}</span>
+      <Icon className="mr-2" style={{ fontSize: 28 }} />
+      {title ? <span className="antialised font-medium">{title}</span> : null}
     </a>
   );
 };
@@ -16,5 +16,5 @@ export const LinkButton = ({ Icon, link, title }) => {
 LinkButton.propTypes = {
   Icon: PropTypes.elementType.isRequired,
   link: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
 };
