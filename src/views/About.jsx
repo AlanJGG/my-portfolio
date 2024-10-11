@@ -5,7 +5,7 @@ export const About = () => {
         About me
       </h1>
       <div className="w-full lg:flex gap-x-24 mt-8 2xl:mt-20">
-        <p className=" lg:w-6/12 lg:ml-20  xl:text-lg">
+        <p className="lg:w-6/12 lg:ml-20  xl:text-lg">
           I'm Alan, passionate about technology and currently pursuing studies
           in Software Development. With a strong aptitude for problem-solving
           and a collaborative spirit, I thrive in team environments where I can

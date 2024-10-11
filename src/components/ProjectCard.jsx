@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 export const ProjectCard = ({ image, title, description, technologies }) => {
   return (
-    <div className="bg-white shadow-md shadow-slate-800  rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 max-w-xs">
+    <div className="bg-white shadow-md shadow-slate-800  rounded-lg overflow-hidden hover:shadow-white transition-shadow duration-300 max-w-xs">
       {image ? <img
         className="w-full h-48 object-cover"
         src={image}
@@ -28,7 +28,7 @@ export const ProjectCard = ({ image, title, description, technologies }) => {
 };
 
 ProjectCard.propTypes = {
-  image: PropTypes.string.isRequired,
+  image: PropTypes.string,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   technologies: PropTypes.arrayOf(PropTypes.string).isRequired,
