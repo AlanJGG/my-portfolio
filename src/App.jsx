@@ -1,4 +1,4 @@
-import { Navbar } from "./components";
+import { Navbar, SectionHR } from "./components";
 import { Home, About, Projects, Blog, Contact } from "./views";
 
 const App = () => {
@@ -6,9 +6,11 @@ const App = () => {
     <div id="app">
       <Navbar />
       <Home />
+      <SectionHR />
       <About />
+      <SectionHR />
       <Projects />
-      <Blog />
+      <SectionHR />
       <Contact />
     </div>
   );
