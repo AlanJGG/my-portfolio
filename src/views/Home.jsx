@@ -26,7 +26,7 @@ export const Home = () => {
         <div className="flex justify-center md:pl-40 md:pt-2">
           <img
             className="brightness-75 grayscale-0 w-40 lg:w-96 xl:w-auto rounded-xl md:max-w-[400px] sm:w-auto"
-            src={`${import.meta.env.BASE_URL}assets/draft-face.png`}
+            src={`${import.meta.env.BASE_URL}assets/pictures/draft-face.png`}
           />
         </div>
       </div>
