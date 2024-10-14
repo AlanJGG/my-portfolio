@@ -5,17 +5,18 @@
 $main_color: #03000f;
 $dark-purple: rgba(31, 12, 54, 0.686);
 $light-purple: rgba(65, 32, 72, 0.5);
+$pink-orange: #6e332c75;
 $text-color: rgba(238, 231, 224, 0.908);
 
 html {
   background-color: $main_color;
   background: radial-gradient(
     circle at bottom right,
-    black,
     $main_color 40%,
     rgba(33, 33, 64, 0.622) 60%,
-    $dark-purple 70%,
-    $light-purple 90%
+    $dark-purple 80%,
+    $pink-orange 85%,
+    $light-purple 100%
   );
   font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;

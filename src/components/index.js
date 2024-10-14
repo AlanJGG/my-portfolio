@@ -5,5 +5,6 @@ export { LinkButton } from "./LinkButton"
 export { Button } from "./Button"
 export { SectionHR } from "./SectionHR"
 export { TechnologyLabel } from "./TechnologyLabel"
+export { Footer } from "./Footer";
 // end:ng42.barrel
 

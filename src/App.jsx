@@ -1,4 +1,4 @@
-import { Navbar, SectionHR } from "./components";
+import { Navbar, SectionHR, Footer } from "./components";
 import { Home, About, Projects, Blog, Contact } from "./views";
 
 const App = () => {
@@ -12,6 +12,7 @@ const App = () => {
       <Projects />
       <SectionHR />
       <Contact />
+      <Footer />
     </div>
   );
 };

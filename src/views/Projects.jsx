@@ -52,7 +52,7 @@ export const Projects = () => {
     },
   ];
   return (
-    <div id="projects" className="xl:h-screen p-8 lg:p-28 antialised 2xl:pb-40">
+    <div id="projects" className="min-h-screen p-8 lg:p-28 antialised 2xl:pb-40">
       <h1 className="sm:flex 2xl:ml-48 text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold antialiased ">
         Work
       </h1>
