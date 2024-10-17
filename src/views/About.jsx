@@ -57,6 +57,7 @@ export const About = () => {
                 <h1 className="font-semibold text-2xl">Soft Skills</h1>
                 <ul className="mt-4 ml-5 list-disc grid gap-y-2">
                   <li>Problem Solving</li>
+                  <li>Fast Learning</li>
                   <li>Client Communication</li>
                   <li>Time Management</li>
                 </ul>

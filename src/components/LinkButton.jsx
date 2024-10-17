@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 export const LinkButton = ({ Icon, link, title }) => {
   return (
     <a
-      className="inline-flex items-center justify-center bg-slate-300/25 hover:bg-slate-500/25 ease-in-out duration-300 p-3 2xl:px-4 rounded-full"
+      className="inline-flex items-center justify-center bg-slate-300/25 hover:bg-slate-500/25 focus:bg-slate-500/25 ease-in-out duration-300 p-3 2xl:px-4 rounded-full"
       href={link}
       target="_blank"
     >
