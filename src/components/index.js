@@ -6,5 +6,6 @@ export { Button } from "./Button"
 export { SectionHR } from "./SectionHR"
 export { TechnologyLabel } from "./TechnologyLabel"
 export { Footer } from "./Footer";
+export { Icon1 } from './svg';
 // end:ng42.barrel
 
