@@ -7,7 +7,7 @@ export const Projects = () => {
       image: "altenia-logo.png",
       description:
         "AlteniaVenta is a system that streamlines the accounting and logistics of a tortilla shop.",
-      link: "https://github.com/AlanJGG/AlteniaVenta",
+      link: {link:"https://github.com/AlanJGG/AlteniaVenta"},
       technologies: ["React", "Javascript", "Electron", "Express", "SQLite"],
     },
     {
@@ -15,6 +15,7 @@ export const Projects = () => {
       image: "creamedic-app.png",
       description:
         "The app offers centralized access to medical services, allowing users to schedule lab tests, request ambulances, book online consultations, and arrange video calls with doctors.",
+      link: {link: "https://apps.apple.com/us/app/creamedic-cl%C3%ADnica-digital/id1668020867", title: "View in App Store"},
       technologies: ["ReactNative", "TypeScript", "Redux"],
     },
   ];

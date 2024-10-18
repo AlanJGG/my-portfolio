@@ -1,3 +1,4 @@
+import { ContactForm } from "../components";
 
 
 export const Contact = () => {
@@ -7,7 +8,9 @@ export const Contact = () => {
         <h1 className="sm:flex 2xl:ml-48 text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold antialiased ">
           Contact me
         </h1>
-        
+        <div className="pt-10">
+          <ContactForm />
+        </div>
       </div>
     </div>
   );
