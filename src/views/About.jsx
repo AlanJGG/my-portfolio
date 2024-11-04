@@ -1,4 +1,4 @@
-import { TechnologyLabel } from "../components";
+import { Icon1, TechnologyLabel } from "../components";
 
 export const About = () => {
   return (
@@ -8,18 +8,24 @@ export const About = () => {
           About me
         </h1>
         <div className="w-full lg:flex gap-x-24 mt-8 2xl:mt-20 xl:text-lg">
-          <p className="lg:w-6/12 lg:ml-20  ">
-            I&apos;m Alan, passionate about technology and currently pursuing
-            studies in Software Development. With a strong aptitude for
-            problem-solving and a collaborative spirit, I thrive in team
-            environments where I can contribute and learn from others. My
-            enthusiasm lies in personal growth and continuous learning, which
-            drives my dedication to mastering new skills and technologies. I
-            aspire to leverage my technical knowledge and teamwork skills to
-            create impactful solutions in the software development field.
-          </p>
+          <div className="lg:w-6/12 lg:ml-20">
+            <p>
+              I&apos;m Alan, passionate about technology and currently pursuing
+              studies in Software Development. With a strong aptitude for
+              problem-solving and a collaborative spirit, I thrive in team
+              environments where I can contribute and learn from others. My
+              enthusiasm lies in personal growth and continuous learning, which
+              drives my dedication to mastering new skills and technologies. I
+              aspire to leverage my technical knowledge and teamwork skills to
+              create impactful solutions in the software development field.
+            </p>
+            <div className="flex justify-center pt-10">
+              <Icon1 size="100" />
+            </div>
+          </div>
+
           <div className="w-full flex justify-center mt-10 lg:mt-0">
-            <div className="w-full grid gap-y-10 lg:grid-cols-2">
+            <div className="w-full grid gap-y-10 2xl:grid-cols-2">
               <div className="">
                 <h1 className="font-semibold text-2xl">Education</h1>
                 <ul className="mt-4 ml-5 list-disc grid gap-y-2">
